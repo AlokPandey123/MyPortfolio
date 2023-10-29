@@ -1,0 +1,50 @@
+#container {
+    position: relative;
+    width: 30%;
+    height: 40%;
+    margin: 20px;
+    background: linear-gradient(red,black);
+    
+  }
+  
+  #image {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  #overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: conic-gradient(rgb(162, 76, 76),rgb(72, 133, 177),rgb(82, 153, 82),rgb(202, 202, 87));
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  #container:hover #overlay {
+    height: 100%;
+  }
+  
+  #text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: conic-gradient(rgb(162, 76, 76),rgb(72, 133, 177),rgb(82, 153, 82),rgb(202, 202, 87));
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: none;
+  }
+#text a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background: conic-gradient(rgb(162, 76, 76),rgb(72, 133, 177),rgb(82, 153, 82),rgb(202, 202, 87));
+}

@@ -1,0 +1,52 @@
+[   {
+    "id":5,
+    "img":"https://th.bing.com/th/id/OIP.yw0TnheAGN-LPneDaTlaxwAAAA?pid=ImgDet&rs=1",
+    "title":"Full Stack Developer",
+    "description":"I have a good Full Stack developer and I utilize my Full Stack Web Developer Skill in many Projects like Rural Development Website, Agricurtural Website,E-commerce Website etc "
+    },
+    {
+        "id":3,
+        "img":"https://infolific.com/images/technology/react_js.jpg",
+        "title":"Front-End Developer",
+        "description":"By utilizing My Front-end skills I develop many number of intractive UI in many Projects like Rural-Development Website, E-commerce Website, Quotes-Management-Website and I developed intractive UI by React.js"
+    },
+    {
+        "id":4,
+        "img":"https://maxtratechnologies.com/blog/wp-content/uploads/2018/11/backend-development.jpg",
+        "title":"Back-End Developer",
+        "description":"I utilize My Back-end Skills in many Full Stack Projects like Rural Development Website, Agricurtural Website,E-commerce Website etc and used Node.js and Express.js"
+    },
+    {
+        "id":1,
+        "img":"https://usamagazine.net/wp-content/uploads/2021/04/sql-database.jpg",
+        "title":"Database Management",
+        "description":"I used  SQL-Language Skill in many small Projects for Realational Database and these are some example where i used SQL Registration Form, Student Entry System Page."
+    },
+    {
+        "id":2,
+        "img":"https://secureservercdn.net/160.153.137.14/fad.0cb.myftpupload.com/wp-content/uploads/2021/03/MongoDB.jpg",
+        "title":"Database Management",
+        "description":"Mongodb Database I used all most all the Full Stack Projects and I like using MongoDB Database causes of its specifications. "
+    },
+    
+    
+    
+    {
+        "id":6,
+        "img":"https://th.bing.com/th/id/OIP.1Eh_JYLX-002PmJRAsNWeAHaGR?pid=ImgDet&w=751&h=636&rs=1",
+        "title":"API Handling",
+        "description":"I used My API handling skill in many small as well as long projects like Qoutes management System and Tutorial-Management-System."
+    },
+    {
+        "id":7,
+        "img":"https://th.bing.com/th/id/OIP.QeSuPQcOHVCe9S_pU7GH1wHaD4?pid=ImgDet&rs=1",
+        "title":"Hosting",
+        "description":"I host My Projects in more then one free platforms which are following as Render and Github."
+    },
+    {
+        "id":8,
+        "img":"https://th.bing.com/th/id/OIP.03KElrT6UEBLUDDS9KtlbgAAAA?pid=ImgDet&rs=1",
+        "title":"Github",
+        "description":"I used My version control skill in many Projects like Rural Development Website, Agricurtural Website etc.. "
+    }
+]

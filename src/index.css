@@ -1,0 +1,145 @@
+*{
+  background-color: black;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#imageContainer{
+  height: 200px;
+}
+#alokImage{
+  margin-top: 100px;
+  border-radius: 50% 10% ;
+  box-shadow: 10px 10px 10px 10px #d53a2c;
+  cursor: pointer;
+  z-index: 150;
+}
+#alokImage:hover{
+  box-shadow: 10px 10px 10px 10px #7bd558;
+}
+#runningTextContainer{
+  display: inline-block;
+}
+#runningText{
+  font-size: 4rem;
+  letter-spacing: 10px;
+  border-radius: 5px solid;
+  width: 100%;
+  color: rgb(117, 253, 253);
+  font-family:  monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+    typing 4s steps(12) infinite,
+    cursor 2s  infinite ;
+}
+@keyframes cursor{
+  50%{border-color: transparent;}
+}
+@keyframes typing{
+  from{width: 0;}
+}
+.iconLink{
+  text-decoration: none;
+  
+}
+.gmaillink:hover{
+  text-emphasis: none;
+}
+#skillCon{
+  margin-top:  40px;
+}
+.textSkill{
+  margin-top: 0%;
+  margin-bottom: 34px;
+}
+
+#downloadButtonA{
+  background-color: rgb(46, 49, 52);
+  color: white;
+  text-decoration: none;
+  border : 2px solid rgb(32, 26, 26);
+  padding: 2px;
+  
+}
+#downloadButtonA:hover{
+   background-color: blue;
+   color:white;
+   height: 3rem;
+   width: 12rem;
+   position: relative;
+}
+
+#container-skill{
+  width: 420px;
+  padding: 50px 0;
+  border-radius: 8px;
+  background: #151313;
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+#circular-progress-skill{
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: conic-gradient(red 3.6deg,white 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#circular-progress::before{
+  content: "";
+  position: absolute;
+  height: 210px;
+  width: 210px;
+  background-color: #7bd558;
+}
+#progress-value-skill{
+  position: relative;
+  background-color: white;
+  color: #151313;
+  font-size: 50px;
+  font-weight: 600;
+
+}
+.box{
+  margin-top: 13px;
+}
+#service{
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  
+  grid-gap: 40px;
+  background-color: #2196F3;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#link-title{
+  color: white;
+}
+#navItem{
+  margin-left: 35px;
+  
+}
+
+#navItem:hover{
+  background-color: rgb(8, 87, 113);
+  color: black;
+  border-radius: 10px;
+}
+
