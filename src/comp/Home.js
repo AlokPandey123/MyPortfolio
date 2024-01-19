@@ -23,7 +23,7 @@ const Home = () =>{
                         to work with an innovative company so that I can upgrade my skill set
                         and knowledge while contributing to the success of an organization.
                  </div><br/>
-                 <a className=' font-weight-bold p-2 rounded-4' href='Alok Pandey(3).pdf' id="downloadButtonA" download='Alok Resume' >Download</a>
+                 <a className=' font-weight-bold p-2 rounded-4' href='AlokPandey(3).pdf' id="downloadButtonA" download='Alok Resume' >Download</a>
                  
                 </div>
                 <div className='col-6 ' id='imageContainer'>
