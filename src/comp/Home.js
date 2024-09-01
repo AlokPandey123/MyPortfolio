@@ -14,7 +14,7 @@ const Home = () =>{
         <>
             <section className='row ' style={{height:'600px'}}>
                 <div className='col-6 m-auto'>
-                 <h3><span className='text-warning fs-2'>My</span> <span className='text-danger'>name is</span></h3>
+                 <h3><span className='text-warning fs-2'>My</span> <span className='text-primary'>name is</span></h3>
                 
                  <div id="runningTextContainer">
                     <h1 id="runningText">Alok Pandey.</h1>

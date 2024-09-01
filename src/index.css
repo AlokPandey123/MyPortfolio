@@ -36,7 +36,7 @@ code {
   letter-spacing: 10px;
   border-radius: 5px solid;
   width: 100%;
-  color: rgb(117, 253, 253);
+  color: #2196F3;
   font-family:  monospace;
   white-space: nowrap;
   overflow: hidden;
@@ -74,7 +74,7 @@ code {
   
 }
 #downloadButtonA:hover{
-   background-color: blue;
+   background-color: #2196F3;
    color:white;
    height: 3rem;
    width: 12rem;
